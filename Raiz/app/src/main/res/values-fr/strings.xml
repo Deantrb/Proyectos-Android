@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Raiz</string>
+    <string name="titulo">*CALCUL DE LA RACINE*</string>
+    <string name="input">TYPE A VALEUR</string>
+    <string name="resultado">RÉSULTAT</string>
+    <string name="calcular">CALCULAIRE</string>
+    <string name="error">Error en la captura</string>
+</resources>

@@ -1,0 +1,29 @@
+** Agregar un Fragmento al Drawer **
+
+1. Crear el Fragment
+
+2. Agregarlo al navigation/mobile_navigation.xml:
+
+<fragment
+        android:id="@+id/nav_blue"
+        android:name="com.example.drawer.BlueFragment"
+        android:label="Blue"
+        tools:layout="@layout/fragment_blue" />
+
+3. Agregarle un item al menu/activity_main_drawer.xml:
+
+ <item
+       android:id="@+id/nav_blue"
+       android:icon="@drawable/icono"
+       android:title="@string/menu_blue" />
+
+4. Agregar etiqueta de menu del fragmento a values/string.xml:
+
+ <string name="menu_blue">Blue</string>
+
+5. Agregar al MainActivity:
+
+mAppBarConfiguration = new AppBarConfiguration.Builder(
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_blue)
+                .setDrawerLayout(drawer)
+                .build();

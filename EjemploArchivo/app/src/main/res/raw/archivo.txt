@@ -1,0 +1,5 @@
+Juana:Cuernavaca:100:40:
+Ismael:CDMX:150:30
+Maria:Cuernavaca:200:25:
+Julio:Monterrey:180:35
+Pedro:Guadalajara:150:35

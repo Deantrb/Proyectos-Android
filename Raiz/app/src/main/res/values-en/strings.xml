@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Raiz</string>
+    <string name="titulo">*ROOT CALCULATION*</string>
+    <string name="input">TYPE A VALUE</string>
+    <string name="resultado">RESULT</string>
+    <string name="calcular">CALCULATE</string>
+    <string name="error">Error en la captura</string>
+</resources>

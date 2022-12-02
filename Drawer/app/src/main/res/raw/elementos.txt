@@ -1,0 +1,10 @@
+Sodio:Na:11:6.941:1
+Hidrogeno:H:1:1.00794:1
+Calcio:Ca:20:40.078:2
+Nitrogeno:N:7:14.0067:15
+Boro:B:5:10.811:13
+Carbono:C:6:12.0107:14
+Cloro:Cl:17:35.453:17
+Oxigeno:O:8:15.9994:16
+Aluminio:Al:13:26.98153:13
+Fosforo:P:15:30.97690:15

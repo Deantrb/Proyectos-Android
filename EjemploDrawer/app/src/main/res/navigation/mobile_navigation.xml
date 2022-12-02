@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ejemplodrawer.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.ejemplodrawer.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.ejemplodrawer.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_akane"
+        android:name="com.example.ejemplodrawer.AkaneFragment"
+        android:label="Akane"
+        tools:layout="@layout/fragment_akane" />
+    <fragment
+        android:id="@+id/nav_ranma"
+        android:name="com.example.ejemplodrawer.RagmaFragment"
+        android:label="Akane"
+        tools:layout="@layout/fragment_ragma" />
+    <Activity
+        android:id="@+id/nav_shampoo"
+        android:name="com.example.ejemplodrawer.ShampooActivity"
+        android:label="Shampoo"
+        tools:layout="@layout/activity_shampoo" />
+    <Activity
+        android:id="@+id/nav_nabiki"
+        android:name="com.example.ejemplodrawer.NabikiActivity"
+        android:label="Nabiki"
+        tools:layout="@layout/activity_nabiki" />
+
+
+</navigation>

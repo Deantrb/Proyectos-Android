@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Raiz</string>
+    <string name="titulo">*CALCULO RAIZ*</string>
+    <string name="input">TECLEE UN VALOR</string>
+    <string name="resultado">RESULTADO</string>
+    <string name="calcular">CALCULAR</string>
+    <string name="error">Error en la captura</string>
+</resources>

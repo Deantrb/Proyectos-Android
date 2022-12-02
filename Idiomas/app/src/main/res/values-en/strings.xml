@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Idiomas</string>
+    <string name="saludo">Good Morning</string>
+    <string name="agradecimiento">Thanks</string>
+    <string name="despedida">Bye</string>
+</resources>
